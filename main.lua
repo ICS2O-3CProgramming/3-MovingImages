@@ -21,8 +21,8 @@ local beetleship = display.newImageRect("Images/beetleship.png", 200, 200)
 -- set the image to be transparent
 beetleship.alpha = 0
 
--- set the second image to be transparent
---*** INSERT CODE TO MAKE THE SECOND IMAGE TRANSPARENT
+-- set the second image to be completely visible
+--*** INSERT CODE TO MAKE THE SECOND IMAGE VISIBLE
 
 -- set the initial x and y position of beetleship
 beetleship.x = 0
@@ -42,7 +42,7 @@ end
 -- Function: AddNameHere
 -- Input: this function accepts an event listener
 -- Output: none
--- Description: This function makes the second object move in the opposite direction
+-- Description: This function makes the second object move in the opposite direction while fading out
 -- ***INSERT CODE HERE FOR SECOND FUNCTION
 
 -- MoveShip will be called at program start over and over (30 frames or times per second)
